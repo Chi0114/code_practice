@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 
 ReactDOM.render(
   <div>
-     111111
+     test react
   </div>,
   document.getElementById('root')
 );
