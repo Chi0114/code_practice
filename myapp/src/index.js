@@ -1,9 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import MyButton from "./function_component";
 
-ReactDOM.render(
-  <div>
-     test react
-  </div>,
+ReactDOM.render(<MyButton/>,
   document.getElementById('root')
 );
