@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import MyButton from "./function_component";
+import MyApp from "./event_bingding.js";
 
-ReactDOM.render(<MyButton/>,
+ReactDOM.render(<MyApp/>,
   document.getElementById('root')
 );
