@@ -33,7 +33,7 @@ export default class Cinema extends Component{
         return(
 
             <div>
-            
+                    <input onInput={this.handleInput}></input>       
                     {
                         this.state.cinemaList.map(item=>
                             <dl key={item.cinemaId}>
@@ -46,4 +46,18 @@ export default class Cinema extends Component{
             </div>
         )
     }
+    handleInput(event){
+        console.log('input',event.target.value)
+    }
+
+
 }
+
+
+    /**
+     * filter
+     */
+
+    var arr = ['aaa','bbb','ccc']
+    var newarr = arr.filter(item=>false)
+    console.log(newarr)
